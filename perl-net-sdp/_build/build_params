@@ -1,0 +1,129 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {},
+       {
+         'test_files' => undef,
+         'debug' => undef,
+         'script_files' => [
+                             'examples/sdp2rat'
+                           ],
+         'metafile' => 'META.yml',
+         'install_path' => {},
+         'dist_abstract' => undef,
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'mymetafile2' => 'MYMETA.json',
+         'dist_version_from' => 'lib/Net/SDP.pm',
+         'extra_compiler_flags' => [],
+         'recommends' => {
+                           'LWP::Simple' => 0
+                         },
+         'build_bat' => 0,
+         'PL_files' => undef,
+         'module_name' => 'Net::SDP',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'use_rcfile' => 1,
+         'dist_name' => 'Net-SDP',
+         'sign' => undef,
+         'bundle_inc' => [],
+         'mymetafile' => 'MYMETA.yml',
+         'create_license' => undef,
+         'mb_version' => '0.421',
+         'debugger' => undef,
+         'create_packlist' => 1,
+         'base_dir' => '/home/pi/perl-net-sdp',
+         'recurse_into' => [],
+         'blib' => 'blib',
+         'installdirs' => 'site',
+         'destdir' => undef,
+         'dynamic_config' => 1,
+         'test_requires' => {},
+         'extra_manify_args' => undef,
+         'config' => undef,
+         'bundle_inc_preload' => [],
+         'prefix' => undef,
+         'pollute' => undef,
+         'build_class' => 'Module::Build',
+         'pureperl_only' => 0,
+         'tap_harness_args' => {},
+         'install_base_relpaths' => {},
+         'quiet' => undef,
+         'dist_version' => '0.07',
+         'magic_number' => undef,
+         'build_script' => 'Build',
+         'allow_mb_mismatch' => 0,
+         'c_source' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'license' => 'perl',
+         'html_css' => '',
+         'requires' => {
+                         'Net::hostent' => 0,
+                         'perl' => '5.5.0',
+                         'Sys::Hostname' => 0
+                       },
+         'pod_files' => undef,
+         'release_status' => 'stable',
+         'config_dir' => '_build',
+         '_added_to_INC' => [],
+         'use_tap_harness' => 0,
+         'configure_requires' => {},
+         'prefix_relpaths' => {},
+         'build_requires' => {
+                               'Module::Build' => '0.18'
+                             },
+         'dist_author' => undef,
+         'metafile2' => 'META.json',
+         'create_makefile_pl' => 'passthrough',
+         'recursive_test_files' => undef,
+         'conflicts' => {},
+         'has_config_data' => undef,
+         'orig_dir' => '/home/pi/perl-net-sdp',
+         'perl' => '/usr/bin/perl',
+         'needs_compiler' => '',
+         'original_prefix' => {},
+         'cpan_client' => 'cpan',
+         'install_sets' => {},
+         'xs_files' => undef,
+         'dist_suffix' => undef,
+         'get_options' => {},
+         'allow_pureperl' => 0,
+         'program_name' => undef,
+         'share_dir' => undef,
+         'pm_files' => undef,
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'meta_add' => {},
+         'verbose' => undef,
+         'auto_configure_requires' => 1,
+         'install_base' => undef,
+         'autosplit' => undef,
+         'extra_linker_flags' => [],
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'include_dirs' => [],
+         'meta_merge' => {},
+         'create_readme' => undef,
+         'scripts' => undef
+       }
+     ];
+$x; }
